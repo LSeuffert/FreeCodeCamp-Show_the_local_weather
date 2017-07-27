@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Current Weather</title>
+    </head>
+    <body>
+        <div class="info-container">
+            <h1>Current Weather</h1>
+            <p class="location">City, Country</p>
+            <p class="temperature">xx <span class="temp-units"></span></p>
+            <p class="condition">Condition</p>
+            <!-- icons from https://github.com/darkskyapp/skycons/ -->
+            <figure class="icons">
+                <canvas width="64" height="64"></canvas>
+            </figure>
+        </div>
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="public/js/get-weather.js"></script>
+        <script src="public/js/skycons.js"></script>
+    </body>
+</html>
